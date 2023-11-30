@@ -32,6 +32,7 @@ let add = calculrator.calculrate(operators: "+", firstNum: 30, secondNum: 40)
 let sub = calculrator.calculrate(operators: "-", firstNum: 100, secondNum: 20)
 let multiply = calculrator.calculrate(operators: "*", firstNum: 3, secondNum: 4)
 let divide = calculrator.calculrate(operators: "/", firstNum: 30, secondNum: 3)
+
 //출력
 print("덧셈 값: \(add)")
 print("뺏샘 값: \(sub)")
