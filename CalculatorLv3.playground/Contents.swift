@@ -2,22 +2,7 @@ import UIKit
 
 // Lv3 : AddOperation(더하기), SubstractOperation(빼기), MultiplyOperation(곱하기), DivideOperation(나누기) 연산 클래스를을 만든 후 클래스간의 관계를 고려하여 Calculator 클래스와 관계를 맺기
 // 추가사항: 클래스의 책임(단일책임원칙) 적용하기,
-/*
-//Calculator 클래스
-class Calculator {
-    var firstNum: Double
-    var secondNum: Double
-    
-    init(firstNum: Double, secondNum: Double) {
-        self.firstNum = firstNum
-        self.secondNum = secondNum
-    }
-    
-    func calculate(operation: Operation) -> Double {
-        return operation.operate(firstNum: firstNum, secondNum: secondNum)
-    }
-}
-*/
+
 class Calculator {
     private let addOperation: AddOperation
     private let subtractOperation: SubstractOperation
